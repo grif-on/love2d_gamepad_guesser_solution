@@ -2,7 +2,7 @@
 
 ![Logo of Gamepad Guesser Solution](assets/icons/icon_200x200.webp)
 
-[https://github.com/Vovkiv/gamepad_guesser_solution](https://github.com/Vovkiv/gamepad_guesser_solution)
+[https://github.com/grif-on/love2d_gamepad_guesser_solution](https://github.com/grif-on/love2d_gamepad_guesser_solution)
 
 ---
 
@@ -10,7 +10,7 @@ Guess gamepad type like a pro, implementation of gamepads_types_database for Lov
 
 ---
 
-This library is simple implementation of [this](https://github.com/Vovkiv/gamepads_types_database) database which should (hopefully) make guessing of gamepad types for showing correct promts much easier!
+This library is simple implementation of [this](https://github.com/grif-on/generic_gamepads_types_database) database which should (hopefully) make guessing of gamepad types for showing correct promts much easier!
 
 But be aware, that this is rather simple and unassuming implementation. All this codebase boils down to pretty much big for loop that traverses database to give you correct gamepad type and couple of helper functions (like function to get amount of gamepads in database) and that's it. There not specific optimizations in place. So if you tight on performance/memory/etc, then you might look lower to see other similiar libraries or implement this database yourself.
 
@@ -26,7 +26,7 @@ Other similar gamepad guesser libraries that you might want to look into:
 
 # Basic setup
 >[!NOTE]
-> Before continuing, you need to actually get copy of database file. Download it here [https://github.com/Vovkiv/gamepads_types_database/blob/main/gamecontrollerdb.csv](https://github.com/Vovkiv/gamepads_types_database/blob/main/gamecontrollerdb.csv) and place in root folder of your project (or place it somewhere else, but then you need to pass path to database to load function).
+> Before continuing, you need to actually get copy of database file. Download it here [https://github.com/grif-on/generic_gamepads_types_database/blob/main/gamecontrollerdb.csv](https://github.com/grif-on/generic_gamepads_types_database/blob/main/gamecontrollerdb.csv) and place in root folder of your project (or place it somewhere else, but then you need to pass path to database to load function).
 
 ```lua
 local ggs = require("gamepad_guesser_solution")
@@ -100,7 +100,7 @@ SOFTWARE.
 
 ---
 
-[gamepads_types_database](https://github.com/Vovkiv/gamepads_types_database) - by Volkov (me!)
+[generic_gamepads_types_database](https://github.com/grif-on/generic_gamepads_types_database) - by Volkov
 ```license
 MIT No Attribution
 
@@ -127,8 +127,4 @@ I will post announces when new update will be dropped [on love forums](https://l
 # Contacts
 If you have any questions about this library, have ideas, etc, you can contact me via:
 
-* [Submit new issue](https://github.com/Vovkiv/gamepad_guesser_solution/issues/new).
-* [Check discussions](https://github.com/Vovkiv/gamepad_guesser_solution/discussions/1).
-* [love forum post](https://love2d.org/forums/viewtopic.php?t=96160).
-* [matrix](https://matrix.to/#/@vovkiv:matrix.org).
-* Email - `volkovissocool@gmail.com`
+* [Submit new issue](https://github.com/grif-on/love2d_gamepad_guesser_solution/issues/new).

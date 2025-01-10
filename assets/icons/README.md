@@ -1,4 +1,4 @@
-https://github.com/Vovkiv/gamepad_guesser_solution
+https://github.com/grif-on/love2d_gamepad_guesser_solution
 
 Icon for Gamepad Guesser Solution by volkov is marked with CC0 1.0 Universal. To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0/
 

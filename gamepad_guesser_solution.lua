@@ -1,6 +1,6 @@
 local ggs = {
-    _URL = "https://github.com/Vovkiv/gamepad_guesser_solution",
-    _DOCUMENTATION = "https://github.com/Vovkiv/gamepad_guesser_solution/blob/main/README.md",
+    _URL = "https://github.com/grif-on/love2d_gamepad_guesser_solution",
+    _DOCUMENTATION = "https://github.com/grif-on/love2d_gamepad_guesser_solution/blob/main/README.md",
 
     _VERSION_MAJOR = 1,
     _VERSION_MINOR = 0,
